@@ -1,0 +1,23 @@
+{
+  "name": "bootstrap-sass-project",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "sass --watch scss:assets/css",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "sass": "^1.97.1"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^7.1.0",
+    "autoprefixer": "^10.4.23",
+    "bootstrap": "^5.3.8",
+    "postcss": "^8.5.6",
+    "postcss-cli": "^11.0.1"
+  }
+}
