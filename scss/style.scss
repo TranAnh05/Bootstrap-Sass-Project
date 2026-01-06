@@ -1,5 +1,18 @@
-$primary-color: #111;
+@use 'custom';
 
-.test {
-    color: $primary-color;
-}
+// IMPORT THE COMPONENTS
+@use 'components/animations';
+@use 'components/button';
+@use 'components/mixins';
+@use 'components/typography';
+
+// IMPORT THE SECTIONS
+@use 'sections/navbar';
+@use 'sections/intro-section';
+@use 'sections/campanies';
+@use 'sections/services';
+@use 'sections/testimonials';
+@use 'sections/faq';
+@use 'sections/portfolio';
+@use 'sections/get-started';
+@use 'sections/footer';
